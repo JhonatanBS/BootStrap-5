@@ -1,0 +1,104 @@
+/* XS */
+h1{
+    color: red;
+}
+
+/* SM >= 576px */
+@media (min-width: 576px){
+    h1{
+        color: navy;
+    }
+}
+
+/* MD >= 768px */
+@media (min-width: 768px){
+    h1{
+        color: green;
+    }
+}
+
+/* LG >= 992px */
+@media (min-width: 992px){
+    h1{
+        color: orange;
+    }
+}
+
+/* XL >= 1200px */
+@media (min-width: 1200px){
+    h1{
+        color: purple;
+    }
+}
+
+/* XXL >= 1400px */
+@media (min-width: 1400px){
+    h1{
+        color: yellow;
+    }
+}
+
+.container{
+    border: 5px dotted blue;
+    padding: 10px;
+    background-color: #999;
+    margin-bottom: 100px;
+}
+
+.row{
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col,.col-1,.col-11,.col-4,.col-3,.col-6{
+    border: 2px dashed red;
+    height: 100%;
+    margin: 0;
+}
+
+#tamanho-limitado{
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+.vertical{
+    height: 250px;
+    border-color: coral;
+}
+
+.vertical .row{
+    height: 100%;
+}
+
+.vertical .col-6, 
+.vertical .col-3,
+.vertical .col-4
+{
+    height: 50px;
+}
+
+#offset{
+    height: auto;
+}
+
+#offset .col-md-3{
+    height: 50px;
+    border: 2px solid red;
+}
+
+/* Gutter */
+
+#gutter .row{
+    height: 200px;
+}
+
+#gutter .col-6{
+    margin: auto;
+    height: 50px;
+}
+
+.row p {
+    border: 2px solid green;
+}
