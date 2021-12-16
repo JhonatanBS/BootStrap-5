@@ -1,0 +1,27 @@
+.row{
+    border: 2px solid black;
+    height: 80px;
+    width: 600px;
+    margin-bottom: 30px;
+    padding: 5px;
+    
+}
+
+i{
+    font-size: 50px;
+}
+
+.bi-facebook{
+    color: blue;
+    text-align: center;
+}
+
+.bi-twitter{
+    color: aqua;
+    text-align: center;
+}
+
+.bi-instagram{
+    color: rosybrown;
+    text-align: center;
+}
